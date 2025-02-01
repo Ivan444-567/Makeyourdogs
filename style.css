@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+h1, h2, h3, p, ul{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    margin: 0px auto;
+    width: 1620px;
+}
+/*header*/
+.header{
+    padding: 32px 0px;
+    background-color: #121212;
+    }
+    .header-list{
+        display: flex;
+        align-items: center;
+        gap: 100px;}
+        .header-link {
+         font-size: 24px;   
+         font-weight: 400;
+         font-family: "Oswald", sans-serif;
+         color: #FFFFFF;
+         text-transform: uppercase;
+        }
+        .header-link:hover{
+            color: #B2FFA6;
+        }
+        /* section 1 */
+        .hero-container{
+            display: flex ;
+        }
+        /* section 2 */
+         
+.about-Us{
+    padding-top: 99px;
+    padding-bottom: 99px;
+    background-color: #EFEFEF;
+}
+.about-Us-container {
+    display: flex;
+    gap: 107px;
+}
+.about-Us-text {
+    font-size: 14px;
+    line-height: 158%;
+    color: #101010;
+    padding-bottom: 35px;
+}
+.about-Us-link {
+    background-color: #F9F9F9;
+    color: #707070;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.about-Us-title{
+
+}
+/* section 3 */
+.consultatcion{
+    padding: 172px;
+}
+.consultatcion-img{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.consultatcion-title{
+margin: 32px;
+}
