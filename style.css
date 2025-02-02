@@ -22,7 +22,7 @@ ul{
     padding: 32px 0px;
     background-color: #121212;
     }
-    .header-item{
+    .header-list{
         display: flex;
         align-items: center;
         gap: 100px;}
@@ -33,13 +33,7 @@ ul{
          color: #FFFFFF;
          text-transform: uppercase;
         }
-        .header-iteemm{
-            font-size: 24px;   
-            font-weight: 400;
-            font-family: "Oswald", sans-serif;
-            color: #B2FFA6;
-            text-transform: uppercase;    
-        }
+    
         .header-link:hover{
             color: #B2FFA6;
         }
