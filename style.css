@@ -95,6 +95,11 @@ ul {
     border-radius: 8px;
 }
 /* section 3 */ 
+.Consultations-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
 .Consultations-container {
     display: flex;
     gap: 139px;
