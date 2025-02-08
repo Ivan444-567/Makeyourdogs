@@ -1,54 +1,56 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: "Raleway", sans-serif;
 }
-h1, h2, h3, p, ul{
+h1,
+h2,
+h3,
+p,
+ul {
     margin: 0px;
     padding: 0px;
 }
-a{
+a {
     text-decoration: none;
 }
-ul{
+ul {
     list-style: none;
 }
-.container{
+.container {
     margin: 0px auto;
     width: 1620px;
 }
 /*header*/
-.header{
+.header {
     padding: 32px 0px;
     background-color: #121212;
-    
-    }
-    .header-list{
-        display: flex;
-        align-items: center;
-        gap: 100px;}
-        .header-link {
-         font-size: 24px;   
-         font-weight: 400;
-         font-family: "Oswald", sans-serif;
-         color: #FFFFFF;
-         text-transform: uppercase;
-        }
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.header-link {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
 
-        .header-link:hover{
-            color: #B2FFA6;
-        }
-        .header-list{
-            display: flex;
-  flex-wrap: wrap;
-        }
-        /* section 1 */
-        .hero-container{
-            display: flex ;
-        }
-        /* section 2 */
-         
-.about-Us{
+.header-link:hover {
+    color: #B2FFA6;
+}
+
+/* section 1 */
+.hero-container {
+    display: flex;
+}
+
+/* section 2 */
+
+.about-Us {
     padding-top: 99px;
     padding-bottom: 99px;
     background-color: #EFEFEF;
@@ -62,7 +64,6 @@ ul{
     line-height: 158%;
     color: #101010;
     padding-bottom: 35px;
-
 }
 .about-Us-link {
     background-color: #B2FFA6;
@@ -72,12 +73,50 @@ ul{
     padding: 10px 20px;
     border-radius: 8px;
 }
-
-.about-Us-title{
-
+/* section 3 */ 
+.Consultations-container {
+    display: flex;
+    gap: 139px;
+    justify-content: center;
 }
-
-/* section 3 */
+/* section 4 */
+.services {
+    background-color: #f2f2f2;
+}
+.services h3 {
+    font-size: 22px;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.services p {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.services-wrapper {
+    display: flex;
+    gap: 139px;
+    justify-content: center;
+}
+.services-wrapper-div {
+    width: 100px;
+}
+/* section 5 */
+.footer {
+    background-color: #000;
+}
+.footer-wrapper {
+    display: flex;
+    gap: 139px;
+    justify-content: center;
+    align-items: stretch;
+}
+.footer-wrapper h4 {
+    color: #fff;
+}
+.privacy-note p {
+    color: #fff;
+}
 
 
 
