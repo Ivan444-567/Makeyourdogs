@@ -70,12 +70,22 @@ ul {
     display: flex;
     gap: 107px;
 }
-.about-Us-text {
+.about-Us-title {
     font-size: 14px;
     line-height: 158%;
     color: #101010;
     padding-bottom: 35px;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
 }
+.about-Us-text {
+    font-size: 14px;
+    line-height: 158%;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
 .about-Us-link {
     background-color: #B2FFA6;
     color: #707070;
@@ -124,8 +134,12 @@ ul {
 .footer-wrapper{
     color: #fff;
 }
-.footer-text {
+.footer-title {
     color: #fff;
+}
+.footer-text{
+    display: flex;
+    justify-content: flex-end;
 }
 
 
