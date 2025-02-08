@@ -130,6 +130,10 @@ ul {
 .services-img{
         display: flex;
 }
+.services-link{
+    color: #121212;
+    border:#B2FFA6;
+}
 /* section 5 */
 .footer {
     background-color: #121212;
