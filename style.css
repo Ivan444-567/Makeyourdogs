@@ -21,6 +21,7 @@ ul{
 .header{
     padding: 32px 0px;
     background-color: #121212;
+    
     }
     .header-list{
         display: flex;
@@ -36,6 +37,10 @@ ul{
 
         .header-link:hover{
             color: #B2FFA6;
+        }
+        .header-list{
+            display: flex;
+  flex-wrap: wrap;
         }
         /* section 1 */
         .hero-container{
