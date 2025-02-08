@@ -127,6 +127,11 @@ ul {
 .services-wrapper-div {
     width: 100px;
 }
+.services-item{
+    
+        display: flex;
+      
+}
 /* section 5 */
 .footer {
     background-color: #121212;
