@@ -139,7 +139,7 @@ ul {
 }
 .footer-text{
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
 }
 
 
