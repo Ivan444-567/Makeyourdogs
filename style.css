@@ -75,6 +75,9 @@ body{
      display: inline-block;
      font-family: "Oswald";
    }
+   .hero-img{
+    float:right
+   }
     /* section 2 */
     .about-us {
       background-color:#EFEFEF;
