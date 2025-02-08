@@ -103,7 +103,7 @@ ul {
 }
 /* section 5 */
 .footer {
-    background-color: #000;
+    background-color: #121212;
 }
 .footer-wrapper {
     display: flex;
@@ -111,10 +111,10 @@ ul {
     justify-content: center;
     align-items: stretch;
 }
-.footer-wrapper h4 {
+.footer-wrapper{
     color: #fff;
 }
-.privacy-note p {
+.footer-text {
     color: #fff;
 }
 
