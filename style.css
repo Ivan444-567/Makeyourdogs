@@ -47,6 +47,17 @@ ul {
 .hero-container {
     display: flex;
 }
+.hero-link{
+    background-color: #B2FFA6;
+    color: #707070;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.hero-text{
+    width: 700px;
+}
 
 /* section 2 */
 
@@ -108,7 +119,6 @@ ul {
 .footer-wrapper {
     display: flex;
     gap: 139px;
-    justify-content: center;
     align-items: stretch;
 }
 .footer-wrapper{
