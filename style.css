@@ -127,10 +127,8 @@ ul {
 .services-wrapper-div {
     width: 100px;
 }
-.services-item{
-    
+.services-img{
         display: flex;
-      
 }
 /* section 5 */
 .footer {
